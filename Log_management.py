@@ -1,3 +1,8 @@
+'''A lightweight Python-based log parsing and tracking system that can efficiently process log entries,
+group them by user, count log levels (like INFO, ERROR, WARN),
+filter logs by keywords, and maintain a rolling window of recent logs.
+'''
+
 from collections import defaultdict, deque
 from typing import List, Dict
 
