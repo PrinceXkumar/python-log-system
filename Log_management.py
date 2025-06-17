@@ -74,7 +74,6 @@ if __name__ == "__main__":
 
     system = LogSystem(capacity=3)
 
-
     for entry in logs:
         system.add_log(entry)
 
